@@ -1,0 +1,20 @@
+{
+  "engine": "glm",
+  "model": "glm-ocr:q8_0",
+  "image": "C:\\OCR-New\\pan.png",
+  "text": "आयकर विमान\nINCOME TAX DEPARTMENT\nD MANIKANDAN\nDURAISAMY\n16/07/1986\nPermanent Account Number\nBNZPM2501F\nSignature\nमारत सरकार\nGOVT. OF INDIA\n04082011",
+  "original_size": [
+    600,
+    400
+  ],
+  "input_size": [
+    600,
+    400
+  ],
+  "truncated": false,
+  "usage": {
+    "prompt_tokens": 306,
+    "generated_tokens": 94,
+    "total_duration_ns": 136897519400
+  }
+}

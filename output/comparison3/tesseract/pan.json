@@ -1,0 +1,36 @@
+{
+  "engine": "tesseract",
+  "image": "C:\\OCR-New\\pan.png",
+  "language": "eng",
+  "text": "steax feat Rd Gee\nINCOME TAX DEPARTMENT\nD MANIKANDAN\nDURAISAMY\n16/07/1986\nPermanent Account Number\nBNZPM2501F",
+  "lines": [
+    {
+      "text": "steax feat Rd Gee",
+      "confidence": 0.14
+    },
+    {
+      "text": "INCOME TAX DEPARTMENT",
+      "confidence": 0.8533333333333334
+    },
+    {
+      "text": "D MANIKANDAN",
+      "confidence": 0.85
+    },
+    {
+      "text": "DURAISAMY",
+      "confidence": 0.91
+    },
+    {
+      "text": "16/07/1986",
+      "confidence": 0.96
+    },
+    {
+      "text": "Permanent Account Number",
+      "confidence": 0.94
+    },
+    {
+      "text": "BNZPM2501F",
+      "confidence": 0.9
+    }
+  ]
+}

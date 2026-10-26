@@ -1,0 +1,45 @@
+{
+  "model_type": "asternet",
+  "version": "1.0-production",
+  "architectures": ["AsterNet"],
+  "total_parameters": 10649106,
+  "trainable_parameters": 10649106,
+  "num_classes": 227,
+  "hidden_dim": 256,
+  "input_height": 32,
+  "checkpoint_size_mb": 40.78,
+  "components": {
+    "backbone": {
+      "type": "InvertedResidualSEResNet",
+      "stem": "HighPassSpatialFilter",
+      "parameters": 2525249
+    },
+    "sequence_encoder": {
+      "type": "BidirectionalLSTM",
+      "layers": 2,
+      "hidden_size": 256,
+      "parameters": 3153920
+    },
+    "language_fusion": {
+      "type": "MultiHeadSelfAttention",
+      "heads": 4,
+      "parameters": 4206592
+    },
+    "classifier": {
+      "type": "CTCLinearHead",
+      "parameters": 116451
+    }
+  },
+  "benchmarks": {
+    "dataset": "vi_00_inkdata_national_suite",
+    "exact_match_percent": 86.0,
+    "cer_percent": 3.45,
+    "wer_percent": 9.01,
+    "latency_cpu_core_i7_ms": 60.25,
+    "throughput_fps": 16.6
+  },
+  "language": "vi",
+  "framework": "pytorch",
+  "creator": "asterxlabs",
+  "license": "mit"
+}

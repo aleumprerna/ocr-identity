@@ -1,0 +1,182 @@
+{
+  "paddleocr": {
+    "response": {
+      "document_type": "Aadhaar",
+      "name": "Apeksha Mishra",
+      "name_hindi": "अपेक्षा मिश्रा",
+      "date_of_birth": "2003-07-23",
+      "gender": "Female",
+      "aadhaar_number": "745860352502",
+      "virtual_id": "",
+      "issue_date": "",
+      "download_date": "2019-12-05",
+      "address": {
+        "care_of": "Sanjiv Kumar Mishra",
+        "house_number": "",
+        "locality": "Gopal Ganj / Upper Bazar, Near Shani Mandir, Upper Bazar Ranchi",
+        "city": "Ranchi",
+        "district": "Ranchi",
+        "state": "Jharkhand",
+        "pin_code": "834001",
+        "country": "India"
+      },
+      "issuing_authority": "UIDAI",
+      "qr_code_present": true
+    },
+    "text": "HR RT TE\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\n3TET\nDownload Date: 05/12/2019\nYaT:\nD/O/\n2HT4RH, 3T 1SR RTE, 2T ST.3H\n2i, $I1RGS, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\n7458 6035 2502\nWWW\nP.O. Box No.1947,\nidai gov.in\nRengaluru-560 001\nAIRD\nHROR\nGOVERNMENT OF INDIA\nmat \n3FT\nApeksha Mishra\n30H\n/D23/07/2003\n/FEMALE\n7458 6035 2502\nT3TETR\nA\n46419\nGoo0oj pa\nDownload Date: 05/12/2019\nअपेक्षा मिश्रा"
+  },
+  "glm": {
+    "response": {
+      "engine": "glm",
+      "model": "glm-ocr:q8_0",
+      "image": "C:\\OCR-New\\apeksh.webp",
+      "text": "आयात\nभारतीय विश्वास पहचान प्राधिकरण\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\nपता:\nD/O: संजीव कमार मिश्रा, गौपालल गौपज / अपर बाजार,\nशाखी मठिर के पासस, अपर बाजार राखी, राखी जी.पी.आ\nराखी, दुरार्थड, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\nDownload Date: 05/12/2019\n7458 6035 2502\nwww\nuidai.gov.in\nP.O. Box No.1947,\nBengaluru-560 001\nभारत सरकार\nGOVERNMENT OF INDIA\nअपेद्धा मिश्रा\nApeksha Mishra\nजन्म तिनिय / DOB: 23/07/2003\nमिश्रा / FEMALE\n7458 6035 2502\nमेरा आयात, मेरी पहचान",
+      "original_size": [
+        768,
+        865
+      ],
+      "input_size": [
+        768,
+        865
+      ],
+      "truncated": false,
+      "usage": {
+        "prompt_tokens": 849,
+        "generated_tokens": 445,
+        "total_duration_ns": 37862779000
+      }
+    },
+    "text": "आयात\nभारतीय विश्वास पहचान प्राधिकरण\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\nपता:\nD/O: संजीव कमार मिश्रा, गौपालल गौपज / अपर बाजार,\nशाखी मठिर के पासस, अपर बाजार राखी, राखी जी.पी.आ\nराखी, दुरार्थड, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\nDownload Date: 05/12/2019\n7458 6035 2502\nwww\nuidai.gov.in\nP.O. Box No.1947,\nBengaluru-560 001\nभारत सरकार\nGOVERNMENT OF INDIA\nअपेद्धा मिश्रा\nApeksha Mishra\nजन्म तिनिय / DOB: 23/07/2003\nमिश्रा / FEMALE\n7458 6035 2502\nमेरा आयात, मेरी पहचान"
+  },
+  "tesseract": {
+    "response": {
+      "engine": "tesseract",
+      "image": "C:\\OCR-New\\apeksh.webp",
+      "language": "eng",
+      "text": "= Gediatartrensa wif _\n‘BN. UNIQUE)IDENTIFICATION/AUTHORITY OF INDIA\nWar.\nD/O: Satta Hare FAT, HTT TT / HTT ATA\nalfa Afex & Oe, rT ah aa ah aH\nIf, ARGS, 834001\n® Address:\n& D/O: Sanjiv Ku\nbazar, near shani ma\nancni G.P.O., Ranchi, J\n@42q peojuMog\nmar Mishra, gopal ganj / upper\nindir, upper bazar ranchi,\nwarknand, 634001\nSO\nR\n602/24,\nP.0. Box No.1947,\nRenaaluru-560 001\nToa Fat\n|\n. Apeksha Mishra\nwem fete / DOB: 23/07/2003 meres\nAr Tert\n,| after / FEMALE 5 fe\nae ae eae\ni eo\n7458 6035 2502\nf\n\\",
+      "lines": [
+        {
+          "text": "= Gediatartrensa wif _",
+          "confidence": 0.39749999999999996
+        },
+        {
+          "text": "‘BN. UNIQUE)IDENTIFICATION/AUTHORITY OF INDIA",
+          "confidence": 0.705
+        },
+        {
+          "text": "War.",
+          "confidence": 0.58
+        },
+        {
+          "text": "D/O: Satta Hare FAT, HTT TT / HTT ATA",
+          "confidence": 0.5588888888888889
+        },
+        {
+          "text": "alfa Afex & Oe, rT ah aa ah aH",
+          "confidence": 0.3133333333333333
+        },
+        {
+          "text": "If, ARGS, 834001",
+          "confidence": 0.6699999999999999
+        },
+        {
+          "text": "® Address:",
+          "confidence": 0.875
+        },
+        {
+          "text": "& D/O: Sanjiv Ku",
+          "confidence": 0.945
+        },
+        {
+          "text": "bazar, near shani ma",
+          "confidence": 0.9275000000000001
+        },
+        {
+          "text": "ancni G.P.O., Ranchi, J",
+          "confidence": 0.6649999999999999
+        },
+        {
+          "text": "@42q peojuMog",
+          "confidence": 0.17
+        },
+        {
+          "text": "mar Mishra, gopal ganj / upper",
+          "confidence": 0.935
+        },
+        {
+          "text": "indir, upper bazar ranchi,",
+          "confidence": 0.7925
+        },
+        {
+          "text": "warknand, 634001",
+          "confidence": 0.37
+        },
+        {
+          "text": "SO",
+          "confidence": 0.76
+        },
+        {
+          "text": "R",
+          "confidence": 0.69
+        },
+        {
+          "text": "602/24,",
+          "confidence": 0.33
+        },
+        {
+          "text": "P.0. Box No.1947,",
+          "confidence": 0.49666666666666676
+        },
+        {
+          "text": "Renaaluru-560 001",
+          "confidence": 0.8600000000000001
+        },
+        {
+          "text": "Toa Fat",
+          "confidence": 0.145
+        },
+        {
+          "text": "|",
+          "confidence": 0.29
+        },
+        {
+          "text": ". Apeksha Mishra",
+          "confidence": 0.63
+        },
+        {
+          "text": "wem fete / DOB: 23/07/2003 meres",
+          "confidence": 0.505
+        },
+        {
+          "text": "Ar Tert",
+          "confidence": 0.3
+        },
+        {
+          "text": ",| after / FEMALE 5 fe",
+          "confidence": 0.515
+        },
+        {
+          "text": "ae ae eae",
+          "confidence": 0.2733333333333334
+        },
+        {
+          "text": "i eo",
+          "confidence": 0.385
+        },
+        {
+          "text": "7458 6035 2502",
+          "confidence": 0.9566666666666667
+        },
+        {
+          "text": "f",
+          "confidence": 0.46
+        },
+        {
+          "text": "\\",
+          "confidence": 0.46
+        }
+      ]
+    },
+    "text": "= Gediatartrensa wif _\n‘BN. UNIQUE)IDENTIFICATION/AUTHORITY OF INDIA\nWar.\nD/O: Satta Hare FAT, HTT TT / HTT ATA\nalfa Afex & Oe, rT ah aa ah aH\nIf, ARGS, 834001\n® Address:\n& D/O: Sanjiv Ku\nbazar, near shani ma\nancni G.P.O., Ranchi, J\n@42q peojuMog\nmar Mishra, gopal ganj / upper\nindir, upper bazar ranchi,\nwarknand, 634001\nSO\nR\n602/24,\nP.0. Box No.1947,\nRenaaluru-560 001\nToa Fat\n|\n. Apeksha Mishra\nwem fete / DOB: 23/07/2003 meres\nAr Tert\n,| after / FEMALE 5 fe\nae ae eae\ni eo\n7458 6035 2502\nf\n\\"
+  }
+}

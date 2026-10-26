@@ -1,0 +1,1992 @@
+{
+  "title": "Three images - PaddleOCR, GLM-OCR and Tesseract responses",
+  "prepared_on": "2026-10-26",
+  "note": "Complete saved application responses. Aadhaar and GLM results reused from 2026-10-23. PAN and voter PaddleOCR/Tesseract were run on 2026-10-26. These are not matched speed or accuracy benchmarks. Paddle Aadhaar includes targeted Hindi/date passes; PAN/voter use raw English OCR.",
+  "cases": [
+    {
+      "input_image": "apeksh.webp",
+      "document_type": "Aadhaar",
+      "input_sha256": "4ef3b984f24c6640d69640350abdc82a197cabe3fb298020bc0766ef3523d8ad",
+      "responses": {
+        "paddleocr": {
+          "source": {
+            "file": "output/comparison/apeksh.ocr.json",
+            "saved_at_local": "2026-10-23T18:32:46"
+          },
+          "response": {
+            "engine": "paddleocr",
+            "image": "C:\\OCR-New\\apeksh.webp",
+            "language": "en",
+            "text": "HR RT TE\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\n3TET\nDownload Date: 05/12/2019\nYaT:\nD/O/\n2HT4RH, 3T 1SR RTE, 2T ST.3H\n2i, $I1RGS, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\n7458 6035 2502\nWWW\nP.O. Box No.1947,\nidai gov.in\nRengaluru-560 001\nAIRD\nHROR\nGOVERNMENT OF INDIA\nmat \n3FT\nApeksha Mishra\n30H\n/D23/07/2003\n/FEMALE\n7458 6035 2502\nT3TETR\nA\n46419\nGoo0oj pa\nDownload Date: 05/12/2019\nअपेक्षा मिश्रा",
+            "lines": [
+              {
+                "text": "HR RT TE",
+                "confidence": 0.3913736343383789,
+                "polygon": [
+                  [
+                    257,
+                    25
+                  ],
+                  [
+                    692,
+                    21
+                  ],
+                  [
+                    692,
+                    52
+                  ],
+                  [
+                    257,
+                    56
+                  ]
+                ]
+              },
+              {
+                "text": "UNIQUE IDENTIFICATION AUTHORITY OF INDIA",
+                "confidence": 0.9963983297348022,
+                "polygon": [
+                  [
+                    225,
+                    58
+                  ],
+                  [
+                    725,
+                    51
+                  ],
+                  [
+                    725,
+                    75
+                  ],
+                  [
+                    225,
+                    82
+                  ]
+                ]
+              },
+              {
+                "text": "3TET",
+                "confidence": 0.4174177348613739,
+                "polygon": [
+                  [
+                    73,
+                    83
+                  ],
+                  [
+                    179,
+                    81
+                  ],
+                  [
+                    179,
+                    106
+                  ],
+                  [
+                    73,
+                    108
+                  ]
+                ]
+              },
+              {
+                "text": "Download Date: 05/12/2019",
+                "confidence": 0.9970701336860657,
+                "polygon": [
+                  [
+                    8,
+                    107
+                  ],
+                  [
+                    32,
+                    107
+                  ],
+                  [
+                    29,
+                    358
+                  ],
+                  [
+                    5,
+                    357
+                  ]
+                ]
+              },
+              {
+                "text": "YaT:",
+                "confidence": 0.6551553606987,
+                "polygon": [
+                  [
+                    36,
+                    121
+                  ],
+                  [
+                    89,
+                    119
+                  ],
+                  [
+                    90,
+                    142
+                  ],
+                  [
+                    37,
+                    145
+                  ]
+                ]
+              },
+              {
+                "text": "D/O/",
+                "confidence": 0.5430853962898254,
+                "polygon": [
+                  [
+                    35,
+                    140
+                  ],
+                  [
+                    533,
+                    125
+                  ],
+                  [
+                    534,
+                    152
+                  ],
+                  [
+                    36,
+                    167
+                  ]
+                ]
+              },
+              {
+                "text": "2HT4RH, 3T 1SR RTE, 2T ST.3H",
+                "confidence": 0.4587506949901581,
+                "polygon": [
+                  [
+                    36,
+                    164
+                  ],
+                  [
+                    535,
+                    147
+                  ],
+                  [
+                    536,
+                    174
+                  ],
+                  [
+                    37,
+                    192
+                  ]
+                ]
+              },
+              {
+                "text": "2i, $I1RGS, 834001",
+                "confidence": 0.7213950157165527,
+                "polygon": [
+                  [
+                    35,
+                    189
+                  ],
+                  [
+                    277,
+                    180
+                  ],
+                  [
+                    278,
+                    207
+                  ],
+                  [
+                    36,
+                    216
+                  ]
+                ]
+              },
+              {
+                "text": "Address:",
+                "confidence": 0.999947190284729,
+                "polygon": [
+                  [
+                    39,
+                    236
+                  ],
+                  [
+                    167,
+                    230
+                  ],
+                  [
+                    168,
+                    254
+                  ],
+                  [
+                    40,
+                    260
+                  ]
+                ]
+              },
+              {
+                "text": "D/O: Sanjiv Kumar Mishra, gopal ganj / upper",
+                "confidence": 0.9875808954238892,
+                "polygon": [
+                  [
+                    34,
+                    262
+                  ],
+                  [
+                    526,
+                    236
+                  ],
+                  [
+                    527,
+                    260
+                  ],
+                  [
+                    35,
+                    286
+                  ]
+                ]
+              },
+              {
+                "text": "bazar, near shani mandir, upper bazar ranchi,",
+                "confidence": 0.9896721839904785,
+                "polygon": [
+                  [
+                    34,
+                    289
+                  ],
+                  [
+                    527,
+                    259
+                  ],
+                  [
+                    528,
+                    283
+                  ],
+                  [
+                    35,
+                    313
+                  ]
+                ]
+              },
+              {
+                "text": "Ranchi G.P.O., Ranchi, Jharkhand, 834001",
+                "confidence": 0.9596392512321472,
+                "polygon": [
+                  [
+                    34,
+                    314
+                  ],
+                  [
+                    507,
+                    283
+                  ],
+                  [
+                    508,
+                    307
+                  ],
+                  [
+                    35,
+                    338
+                  ]
+                ]
+              },
+              {
+                "text": "7458 6035 2502",
+                "confidence": 0.9709362983703613,
+                "polygon": [
+                  [
+                    86,
+                    367
+                  ],
+                  [
+                    388,
+                    344
+                  ],
+                  [
+                    391,
+                    375
+                  ],
+                  [
+                    89,
+                    398
+                  ]
+                ]
+              },
+              {
+                "text": "WWW",
+                "confidence": 0.7782524228096008,
+                "polygon": [
+                  [
+                    439,
+                    379
+                  ],
+                  [
+                    496,
+                    374
+                  ],
+                  [
+                    497,
+                    393
+                  ],
+                  [
+                    440,
+                    398
+                  ]
+                ]
+              },
+              {
+                "text": "P.O. Box No.1947,",
+                "confidence": 0.9775721430778503,
+                "polygon": [
+                  [
+                    586,
+                    385
+                  ],
+                  [
+                    714,
+                    375
+                  ],
+                  [
+                    715,
+                    392
+                  ],
+                  [
+                    587,
+                    402
+                  ]
+                ]
+              },
+              {
+                "text": "idai gov.in",
+                "confidence": 0.9834417700767517,
+                "polygon": [
+                  [
+                    451,
+                    400
+                  ],
+                  [
+                    532,
+                    394
+                  ],
+                  [
+                    533,
+                    411
+                  ],
+                  [
+                    452,
+                    417
+                  ]
+                ]
+              },
+              {
+                "text": "Rengaluru-560 001",
+                "confidence": 0.9551342129707336,
+                "polygon": [
+                  [
+                    587,
+                    400
+                  ],
+                  [
+                    715,
+                    389
+                  ],
+                  [
+                    716,
+                    406
+                  ],
+                  [
+                    588,
+                    417
+                  ]
+                ]
+              },
+              {
+                "text": "AIRD",
+                "confidence": 0.7329704761505127,
+                "polygon": [
+                  [
+                    340,
+                    434
+                  ],
+                  [
+                    420,
+                    434
+                  ],
+                  [
+                    420,
+                    463
+                  ],
+                  [
+                    340,
+                    463
+                  ]
+                ]
+              },
+              {
+                "text": "HROR",
+                "confidence": 0.6608679890632629,
+                "polygon": [
+                  [
+                    411,
+                    434
+                  ],
+                  [
+                    516,
+                    434
+                  ],
+                  [
+                    516,
+                    462
+                  ],
+                  [
+                    411,
+                    462
+                  ]
+                ]
+              },
+              {
+                "text": "GOVERNMENT OF INDIA",
+                "confidence": 0.9997072815895081,
+                "polygon": [
+                  [
+                    293,
+                    468
+                  ],
+                  [
+                    555,
+                    468
+                  ],
+                  [
+                    555,
+                    491
+                  ],
+                  [
+                    293,
+                    491
+                  ]
+                ]
+              },
+              {
+                "text": "mat ",
+                "confidence": 0.3720036447048187,
+                "polygon": [
+                  [
+                    68,
+                    511
+                  ],
+                  [
+                    128,
+                    511
+                  ],
+                  [
+                    128,
+                    525
+                  ],
+                  [
+                    68,
+                    525
+                  ]
+                ]
+              },
+              {
+                "text": "3FT",
+                "confidence": 0.5989490747451782,
+                "polygon": [
+                  [
+                    226,
+                    529
+                  ],
+                  [
+                    391,
+                    532
+                  ],
+                  [
+                    391,
+                    571
+                  ],
+                  [
+                    226,
+                    568
+                  ]
+                ]
+              },
+              {
+                "text": "Apeksha Mishra",
+                "confidence": 0.9998756051063538,
+                "polygon": [
+                  [
+                    228,
+                    577
+                  ],
+                  [
+                    423,
+                    575
+                  ],
+                  [
+                    423,
+                    603
+                  ],
+                  [
+                    228,
+                    605
+                  ]
+                ]
+              },
+              {
+                "text": "30H",
+                "confidence": 0.5348556637763977,
+                "polygon": [
+                  [
+                    227,
+                    615
+                  ],
+                  [
+                    281,
+                    615
+                  ],
+                  [
+                    281,
+                    637
+                  ],
+                  [
+                    227,
+                    637
+                  ]
+                ]
+              },
+              {
+                "text": "/D23/07/2003",
+                "confidence": 0.9464111924171448,
+                "polygon": [
+                  [
+                    284,
+                    612
+                  ],
+                  [
+                    551,
+                    612
+                  ],
+                  [
+                    551,
+                    639
+                  ],
+                  [
+                    284,
+                    639
+                  ]
+                ]
+              },
+              {
+                "text": "/FEMALE",
+                "confidence": 0.9218553900718689,
+                "polygon": [
+                  [
+                    227,
+                    650
+                  ],
+                  [
+                    422,
+                    650
+                  ],
+                  [
+                    422,
+                    678
+                  ],
+                  [
+                    227,
+                    678
+                  ]
+                ]
+              },
+              {
+                "text": "7458 6035 2502",
+                "confidence": 0.9990407228469849,
+                "polygon": [
+                  [
+                    248,
+                    764
+                  ],
+                  [
+                    528,
+                    764
+                  ],
+                  [
+                    528,
+                    795
+                  ],
+                  [
+                    248,
+                    795
+                  ]
+                ]
+              },
+              {
+                "text": "T3TETR",
+                "confidence": 0.6442057490348816,
+                "polygon": [
+                  [
+                    190,
+                    810
+                  ],
+                  [
+                    405,
+                    814
+                  ],
+                  [
+                    404,
+                    860
+                  ],
+                  [
+                    189,
+                    856
+                  ]
+                ]
+              },
+              {
+                "text": "A",
+                "confidence": 0.8409134149551392,
+                "polygon": [
+                  [
+                    381,
+                    811
+                  ],
+                  [
+                    458,
+                    808
+                  ],
+                  [
+                    459,
+                    856
+                  ],
+                  [
+                    382,
+                    858
+                  ]
+                ]
+              },
+              {
+                "text": "46419",
+                "confidence": 0.5949504375457764,
+                "polygon": [
+                  [
+                    454,
+                    817
+                  ],
+                  [
+                    583,
+                    817
+                  ],
+                  [
+                    583,
+                    860
+                  ],
+                  [
+                    454,
+                    860
+                  ]
+                ]
+              },
+              {
+                "text": "Goo0oj pa",
+                "confidence": 0.3418022394180298,
+                "source": "vertical"
+              },
+              {
+                "text": "Download Date: 05/12/2019",
+                "confidence": 0.9951019883155823,
+                "source": "vertical"
+              },
+              {
+                "text": "अपेक्षा मिश्रा",
+                "confidence": 0.9604182243347168,
+                "source": "hindi_name"
+              }
+            ]
+          }
+        },
+        "glm": {
+          "source": {
+            "file": "output/glm/apeksh.json",
+            "saved_at_local": "2026-10-23T17:47:59"
+          },
+          "response": {
+            "engine": "glm",
+            "model": "glm-ocr:q8_0",
+            "image": "C:\\OCR-New\\apeksh.webp",
+            "text": "आयात\nभारतीय विश्वास पहचान प्राधिकरण\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\nपता:\nD/O: संजीव कमार मिश्रा, गौपालल गौपज / अपर बाजार,\nशाखी मठिर के पासस, अपर बाजार राखी, राखी जी.पी.आ\nराखी, दुरार्थड, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\nDownload Date: 05/12/2019\n7458 6035 2502\nwww\nuidai.gov.in\nP.O. Box No.1947,\nBengaluru-560 001\nभारत सरकार\nGOVERNMENT OF INDIA\nअपेद्धा मिश्रा\nApeksha Mishra\nजन्म तिनिय / DOB: 23/07/2003\nमिश्रा / FEMALE\n7458 6035 2502\nमेरा आयात, मेरी पहचान",
+            "original_size": [
+              768,
+              865
+            ],
+            "input_size": [
+              768,
+              865
+            ],
+            "truncated": false,
+            "usage": {
+              "prompt_tokens": 849,
+              "generated_tokens": 445,
+              "total_duration_ns": 37862779000
+            }
+          }
+        },
+        "tesseract": {
+          "source": {
+            "file": "output/comparison/tesseract/apeksh.json",
+            "saved_at_local": "2026-10-23T18:32:48"
+          },
+          "response": {
+            "engine": "tesseract",
+            "image": "C:\\OCR-New\\apeksh.webp",
+            "language": "eng",
+            "text": "= Gediatartrensa wif _\n‘BN. UNIQUE)IDENTIFICATION/AUTHORITY OF INDIA\nWar.\nD/O: Satta Hare FAT, HTT TT / HTT ATA\nalfa Afex & Oe, rT ah aa ah aH\nIf, ARGS, 834001\n® Address:\n& D/O: Sanjiv Ku\nbazar, near shani ma\nancni G.P.O., Ranchi, J\n@42q peojuMog\nmar Mishra, gopal ganj / upper\nindir, upper bazar ranchi,\nwarknand, 634001\nSO\nR\n602/24,\nP.0. Box No.1947,\nRenaaluru-560 001\nToa Fat\n|\n. Apeksha Mishra\nwem fete / DOB: 23/07/2003 meres\nAr Tert\n,| after / FEMALE 5 fe\nae ae eae\ni eo\n7458 6035 2502\nf\n\\",
+            "lines": [
+              {
+                "text": "= Gediatartrensa wif _",
+                "confidence": 0.39749999999999996
+              },
+              {
+                "text": "‘BN. UNIQUE)IDENTIFICATION/AUTHORITY OF INDIA",
+                "confidence": 0.705
+              },
+              {
+                "text": "War.",
+                "confidence": 0.58
+              },
+              {
+                "text": "D/O: Satta Hare FAT, HTT TT / HTT ATA",
+                "confidence": 0.5588888888888889
+              },
+              {
+                "text": "alfa Afex & Oe, rT ah aa ah aH",
+                "confidence": 0.3133333333333333
+              },
+              {
+                "text": "If, ARGS, 834001",
+                "confidence": 0.6699999999999999
+              },
+              {
+                "text": "® Address:",
+                "confidence": 0.875
+              },
+              {
+                "text": "& D/O: Sanjiv Ku",
+                "confidence": 0.945
+              },
+              {
+                "text": "bazar, near shani ma",
+                "confidence": 0.9275000000000001
+              },
+              {
+                "text": "ancni G.P.O., Ranchi, J",
+                "confidence": 0.6649999999999999
+              },
+              {
+                "text": "@42q peojuMog",
+                "confidence": 0.17
+              },
+              {
+                "text": "mar Mishra, gopal ganj / upper",
+                "confidence": 0.935
+              },
+              {
+                "text": "indir, upper bazar ranchi,",
+                "confidence": 0.7925
+              },
+              {
+                "text": "warknand, 634001",
+                "confidence": 0.37
+              },
+              {
+                "text": "SO",
+                "confidence": 0.76
+              },
+              {
+                "text": "R",
+                "confidence": 0.69
+              },
+              {
+                "text": "602/24,",
+                "confidence": 0.33
+              },
+              {
+                "text": "P.0. Box No.1947,",
+                "confidence": 0.49666666666666676
+              },
+              {
+                "text": "Renaaluru-560 001",
+                "confidence": 0.8600000000000001
+              },
+              {
+                "text": "Toa Fat",
+                "confidence": 0.145
+              },
+              {
+                "text": "|",
+                "confidence": 0.29
+              },
+              {
+                "text": ". Apeksha Mishra",
+                "confidence": 0.63
+              },
+              {
+                "text": "wem fete / DOB: 23/07/2003 meres",
+                "confidence": 0.505
+              },
+              {
+                "text": "Ar Tert",
+                "confidence": 0.3
+              },
+              {
+                "text": ",| after / FEMALE 5 fe",
+                "confidence": 0.515
+              },
+              {
+                "text": "ae ae eae",
+                "confidence": 0.2733333333333334
+              },
+              {
+                "text": "i eo",
+                "confidence": 0.385
+              },
+              {
+                "text": "7458 6035 2502",
+                "confidence": 0.9566666666666667
+              },
+              {
+                "text": "f",
+                "confidence": 0.46
+              },
+              {
+                "text": "\\",
+                "confidence": 0.46
+              }
+            ]
+          }
+        }
+      },
+      "paddle_structured_aadhaar": {
+        "document_type": "Aadhaar",
+        "name": "Apeksha Mishra",
+        "name_hindi": "अपेक्षा मिश्रा",
+        "date_of_birth": "2003-07-23",
+        "gender": "Female",
+        "aadhaar_number": "745860352502",
+        "virtual_id": "",
+        "issue_date": "",
+        "download_date": "2019-12-05",
+        "address": {
+          "care_of": "Sanjiv Kumar Mishra",
+          "house_number": "",
+          "locality": "Gopal Ganj / Upper Bazar, Near Shani Mandir, Upper Bazar Ranchi",
+          "city": "Ranchi",
+          "district": "Ranchi",
+          "state": "Jharkhand",
+          "pin_code": "834001",
+          "country": "India"
+        },
+        "issuing_authority": "UIDAI",
+        "qr_code_present": true
+      }
+    },
+    {
+      "input_image": "pan.png",
+      "document_type": "PAN",
+      "input_sha256": "ff973b06063a220b48ffc0b8880f25a1b3d78bd8122ed57ac25baaa655cf724e",
+      "responses": {
+        "paddleocr": {
+          "source": {
+            "file": "output/comparison3/pan.json",
+            "saved_at_local": "2026-10-26T10:38:53"
+          },
+          "response": {
+            "engine": "paddleocr",
+            "image": "C:\\OCR-New\\pan.png",
+            "language": "en",
+            "text": "3TRC\nFEHTST\nHRA\nHRCOR\nINCOME TAX DEPARTMENT\nGOVT. OF INDIA\nD MANIKANDAN\nDURAISAMY\n16/07/1986\nPermanent Account Number\nBNZPM2501F\nmanifamalo\n0008000\nSignature",
+            "lines": [
+              {
+                "text": "3TRC",
+                "confidence": 0.4523405432701111,
+                "polygon": [
+                  [
+                    39,
+                    52
+                  ],
+                  [
+                    151,
+                    54
+                  ],
+                  [
+                    151,
+                    80
+                  ],
+                  [
+                    38,
+                    78
+                  ]
+                ]
+              },
+              {
+                "text": "FEHTST",
+                "confidence": 0.6753239631652832,
+                "polygon": [
+                  [
+                    169,
+                    46
+                  ],
+                  [
+                    260,
+                    48
+                  ],
+                  [
+                    259,
+                    82
+                  ],
+                  [
+                    168,
+                    79
+                  ]
+                ]
+              },
+              {
+                "text": "HRA",
+                "confidence": 0.9660237431526184,
+                "polygon": [
+                  [
+                    372,
+                    50
+                  ],
+                  [
+                    450,
+                    52
+                  ],
+                  [
+                    449,
+                    82
+                  ],
+                  [
+                    371,
+                    79
+                  ]
+                ]
+              },
+              {
+                "text": "HRCOR",
+                "confidence": 0.7624053955078125,
+                "polygon": [
+                  [
+                    469,
+                    54
+                  ],
+                  [
+                    563,
+                    54
+                  ],
+                  [
+                    563,
+                    79
+                  ],
+                  [
+                    469,
+                    79
+                  ]
+                ]
+              },
+              {
+                "text": "INCOME TAX DEPARTMENT",
+                "confidence": 0.9856118559837341,
+                "polygon": [
+                  [
+                    36,
+                    93
+                  ],
+                  [
+                    258,
+                    93
+                  ],
+                  [
+                    258,
+                    115
+                  ],
+                  [
+                    36,
+                    115
+                  ]
+                ]
+              },
+              {
+                "text": "GOVT. OF INDIA",
+                "confidence": 0.9665386080741882,
+                "polygon": [
+                  [
+                    376,
+                    91
+                  ],
+                  [
+                    562,
+                    91
+                  ],
+                  [
+                    562,
+                    116
+                  ],
+                  [
+                    376,
+                    116
+                  ]
+                ]
+              },
+              {
+                "text": "D MANIKANDAN",
+                "confidence": 0.9973271489143372,
+                "polygon": [
+                  [
+                    47,
+                    125
+                  ],
+                  [
+                    192,
+                    125
+                  ],
+                  [
+                    192,
+                    143
+                  ],
+                  [
+                    47,
+                    143
+                  ]
+                ]
+              },
+              {
+                "text": "DURAISAMY",
+                "confidence": 0.9998366236686707,
+                "polygon": [
+                  [
+                    46,
+                    169
+                  ],
+                  [
+                    157,
+                    169
+                  ],
+                  [
+                    157,
+                    190
+                  ],
+                  [
+                    46,
+                    190
+                  ]
+                ]
+              },
+              {
+                "text": "16/07/1986",
+                "confidence": 0.9997929334640503,
+                "polygon": [
+                  [
+                    48,
+                    217
+                  ],
+                  [
+                    146,
+                    217
+                  ],
+                  [
+                    146,
+                    236
+                  ],
+                  [
+                    48,
+                    236
+                  ]
+                ]
+              },
+              {
+                "text": "Permanent Account Number",
+                "confidence": 0.9980201125144958,
+                "polygon": [
+                  [
+                    48,
+                    242
+                  ],
+                  [
+                    241,
+                    242
+                  ],
+                  [
+                    241,
+                    256
+                  ],
+                  [
+                    48,
+                    256
+                  ]
+                ]
+              },
+              {
+                "text": "BNZPM2501F",
+                "confidence": 0.9998375773429871,
+                "polygon": [
+                  [
+                    48,
+                    259
+                  ],
+                  [
+                    172,
+                    259
+                  ],
+                  [
+                    172,
+                    277
+                  ],
+                  [
+                    48,
+                    277
+                  ]
+                ]
+              },
+              {
+                "text": "manifamalo",
+                "confidence": 0.6812141537666321,
+                "polygon": [
+                  [
+                    90,
+                    302
+                  ],
+                  [
+                    244,
+                    299
+                  ],
+                  [
+                    245,
+                    321
+                  ],
+                  [
+                    90,
+                    324
+                  ]
+                ]
+              },
+              {
+                "text": "0008000",
+                "confidence": 0.4657064974308014,
+                "polygon": [
+                  [
+                    549,
+                    301
+                  ],
+                  [
+                    563,
+                    301
+                  ],
+                  [
+                    563,
+                    352
+                  ],
+                  [
+                    549,
+                    352
+                  ]
+                ]
+              },
+              {
+                "text": "Signature",
+                "confidence": 0.9998143315315247,
+                "polygon": [
+                  [
+                    46,
+                    341
+                  ],
+                  [
+                    116,
+                    341
+                  ],
+                  [
+                    116,
+                    358
+                  ],
+                  [
+                    46,
+                    358
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "glm": {
+          "source": {
+            "file": "output/glm/pan.json",
+            "saved_at_local": "2026-10-23T17:54:40"
+          },
+          "response": {
+            "engine": "glm",
+            "model": "glm-ocr:q8_0",
+            "image": "C:\\OCR-New\\pan.png",
+            "text": "आयकर विमान\nINCOME TAX DEPARTMENT\nD MANIKANDAN\nDURAISAMY\n16/07/1986\nPermanent Account Number\nBNZPM2501F\nSignature\nमारत सरकार\nGOVT. OF INDIA\n04082011",
+            "original_size": [
+              600,
+              400
+            ],
+            "input_size": [
+              600,
+              400
+            ],
+            "truncated": false,
+            "usage": {
+              "prompt_tokens": 306,
+              "generated_tokens": 94,
+              "total_duration_ns": 136897519400
+            }
+          }
+        },
+        "tesseract": {
+          "source": {
+            "file": "output/comparison3/tesseract/pan.json",
+            "saved_at_local": "2026-10-26T10:38:53"
+          },
+          "response": {
+            "engine": "tesseract",
+            "image": "C:\\OCR-New\\pan.png",
+            "language": "eng",
+            "text": "steax feat Rd Gee\nINCOME TAX DEPARTMENT\nD MANIKANDAN\nDURAISAMY\n16/07/1986\nPermanent Account Number\nBNZPM2501F",
+            "lines": [
+              {
+                "text": "steax feat Rd Gee",
+                "confidence": 0.14
+              },
+              {
+                "text": "INCOME TAX DEPARTMENT",
+                "confidence": 0.8533333333333334
+              },
+              {
+                "text": "D MANIKANDAN",
+                "confidence": 0.85
+              },
+              {
+                "text": "DURAISAMY",
+                "confidence": 0.91
+              },
+              {
+                "text": "16/07/1986",
+                "confidence": 0.96
+              },
+              {
+                "text": "Permanent Account Number",
+                "confidence": 0.94
+              },
+              {
+                "text": "BNZPM2501F",
+                "confidence": 0.9
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "input_image": "vote.png",
+      "document_type": "Voter ID",
+      "input_sha256": "85d0cf41aef57e1aa6aa5abaab65808568deab6a4a20157b77e8c72186434e39",
+      "responses": {
+        "paddleocr": {
+          "source": {
+            "file": "output/comparison3/vote.json",
+            "saved_at_local": "2026-10-26T10:39:38"
+          },
+          "response": {
+            "engine": "paddleocr",
+            "image": "C:\\OCR-New\\vote.png",
+            "language": "en",
+            "text": "HRG EasUC 3U\nELECTION COMMISSION OF INDIA\nZSL6279350\nU5t91\n:44G3\nName: Mamatadevi Agarwal\n4aF:44R3\nHusband's Name: Ballabhkumar:Agarwal\n/Gender/ Femäle\nGHGRRE/C4:\nDate of Birth / Age: 02-06-1970\ne-Electors Photo Identity Card - §-d 3\n4:53..230/1,-1423,23\nau,,5d, qu,46Rg-411039\nan\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY,DIGHI ROAD,BHOSARI,\nBHOSARI,HAVELI, PUNE,MAHARASHTRA-\n411039\n4SGTGU3CT, 207 -2R\nElectoraf Registration Officer, 207 - Bhosari\nZSL6279350\nDownfoad Date: 18-04-2024\nG\n1950\nhttps://ceoelection.maharashtra.gov.in/ceo/",
+            "lines": [
+              {
+                "text": "HRG EasUC 3U",
+                "confidence": 0.4441247880458832,
+                "polygon": [
+                  [
+                    243,
+                    27
+                  ],
+                  [
+                    499,
+                    27
+                  ],
+                  [
+                    499,
+                    61
+                  ],
+                  [
+                    243,
+                    61
+                  ]
+                ]
+              },
+              {
+                "text": "ELECTION COMMISSION OF INDIA",
+                "confidence": 0.9975739121437073,
+                "polygon": [
+                  [
+                    142,
+                    68
+                  ],
+                  [
+                    600,
+                    67
+                  ],
+                  [
+                    600,
+                    96
+                  ],
+                  [
+                    142,
+                    97
+                  ]
+                ]
+              },
+              {
+                "text": "ZSL6279350",
+                "confidence": 0.9999135732650757,
+                "polygon": [
+                  [
+                    46,
+                    129
+                  ],
+                  [
+                    196,
+                    129
+                  ],
+                  [
+                    196,
+                    153
+                  ],
+                  [
+                    46,
+                    153
+                  ]
+                ]
+              },
+              {
+                "text": "U5t91",
+                "confidence": 0.44962936639785767,
+                "polygon": [
+                  [
+                    718,
+                    126
+                  ],
+                  [
+                    739,
+                    127
+                  ],
+                  [
+                    733,
+                    192
+                  ],
+                  [
+                    712,
+                    191
+                  ]
+                ]
+              },
+              {
+                "text": ":44G3",
+                "confidence": 0.43808943033218384,
+                "polygon": [
+                  [
+                    241,
+                    175
+                  ],
+                  [
+                    422,
+                    173
+                  ],
+                  [
+                    422,
+                    197
+                  ],
+                  [
+                    241,
+                    199
+                  ]
+                ]
+              },
+              {
+                "text": "Name: Mamatadevi Agarwal",
+                "confidence": 0.9679329991340637,
+                "polygon": [
+                  [
+                    242,
+                    205
+                  ],
+                  [
+                    501,
+                    206
+                  ],
+                  [
+                    501,
+                    227
+                  ],
+                  [
+                    242,
+                    226
+                  ]
+                ]
+              },
+              {
+                "text": "4aF:44R3",
+                "confidence": 0.34768354892730713,
+                "polygon": [
+                  [
+                    242,
+                    239
+                  ],
+                  [
+                    491,
+                    239
+                  ],
+                  [
+                    491,
+                    263
+                  ],
+                  [
+                    242,
+                    263
+                  ]
+                ]
+              },
+              {
+                "text": "Husband's Name: Ballabhkumar:Agarwal",
+                "confidence": 0.9764225482940674,
+                "polygon": [
+                  [
+                    242,
+                    271
+                  ],
+                  [
+                    619,
+                    271
+                  ],
+                  [
+                    619,
+                    294
+                  ],
+                  [
+                    242,
+                    294
+                  ]
+                ]
+              },
+              {
+                "text": "/Gender/ Femäle",
+                "confidence": 0.8512437343597412,
+                "polygon": [
+                  [
+                    245,
+                    303
+                  ],
+                  [
+                    476,
+                    303
+                  ],
+                  [
+                    476,
+                    324
+                  ],
+                  [
+                    245,
+                    324
+                  ]
+                ]
+              },
+              {
+                "text": "GHGRRE/C4:",
+                "confidence": 0.49106210470199585,
+                "polygon": [
+                  [
+                    244,
+                    334
+                  ],
+                  [
+                    374,
+                    334
+                  ],
+                  [
+                    374,
+                    358
+                  ],
+                  [
+                    244,
+                    358
+                  ]
+                ]
+              },
+              {
+                "text": "Date of Birth / Age: 02-06-1970",
+                "confidence": 0.9517503976821899,
+                "polygon": [
+                  [
+                    244,
+                    366
+                  ],
+                  [
+                    513,
+                    366
+                  ],
+                  [
+                    513,
+                    389
+                  ],
+                  [
+                    244,
+                    389
+                  ]
+                ]
+              },
+              {
+                "text": "e-Electors Photo Identity Card - §-d 3",
+                "confidence": 0.8909819722175598,
+                "polygon": [
+                  [
+                    107,
+                    428
+                  ],
+                  [
+                    654,
+                    424
+                  ],
+                  [
+                    654,
+                    451
+                  ],
+                  [
+                    107,
+                    455
+                  ]
+                ]
+              },
+              {
+                "text": "4:53..230/1,-1423,23",
+                "confidence": 0.7067856192588806,
+                "polygon": [
+                  [
+                    280,
+                    522
+                  ],
+                  [
+                    704,
+                    522
+                  ],
+                  [
+                    704,
+                    545
+                  ],
+                  [
+                    280,
+                    545
+                  ]
+                ]
+              },
+              {
+                "text": "au,,5d, qu,46Rg-411039",
+                "confidence": 0.6485927104949951,
+                "polygon": [
+                  [
+                    281,
+                    549
+                  ],
+                  [
+                    653,
+                    551
+                  ],
+                  [
+                    653,
+                    574
+                  ],
+                  [
+                    281,
+                    572
+                  ]
+                ]
+              },
+              {
+                "text": "an",
+                "confidence": 0.363869309425354,
+                "polygon": [
+                  [
+                    59,
+                    561
+                  ],
+                  [
+                    143,
+                    531
+                  ],
+                  [
+                    150,
+                    551
+                  ],
+                  [
+                    66,
+                    581
+                  ]
+                ]
+              },
+              {
+                "text": "Address: SR.NO.230/1, VINAYAK",
+                "confidence": 0.9652971029281616,
+                "polygon": [
+                  [
+                    280,
+                    580
+                  ],
+                  [
+                    610,
+                    580
+                  ],
+                  [
+                    610,
+                    603
+                  ],
+                  [
+                    280,
+                    603
+                  ]
+                ]
+              },
+              {
+                "text": "RESIDENCY,DIGHI ROAD,BHOSARI,",
+                "confidence": 0.9770628809928894,
+                "polygon": [
+                  [
+                    280,
+                    609
+                  ],
+                  [
+                    649,
+                    610
+                  ],
+                  [
+                    649,
+                    631
+                  ],
+                  [
+                    280,
+                    630
+                  ]
+                ]
+              },
+              {
+                "text": "BHOSARI,HAVELI, PUNE,MAHARASHTRA-",
+                "confidence": 0.963442325592041,
+                "polygon": [
+                  [
+                    278,
+                    637
+                  ],
+                  [
+                    723,
+                    638
+                  ],
+                  [
+                    723,
+                    661
+                  ],
+                  [
+                    278,
+                    660
+                  ]
+                ]
+              },
+              {
+                "text": "411039",
+                "confidence": 0.9980082511901855,
+                "polygon": [
+                  [
+                    280,
+                    665
+                  ],
+                  [
+                    357,
+                    665
+                  ],
+                  [
+                    357,
+                    690
+                  ],
+                  [
+                    280,
+                    690
+                  ]
+                ]
+              },
+              {
+                "text": "4SGTGU3CT, 207 -2R",
+                "confidence": 0.5336053371429443,
+                "polygon": [
+                  [
+                    281,
+                    767
+                  ],
+                  [
+                    595,
+                    767
+                  ],
+                  [
+                    595,
+                    790
+                  ],
+                  [
+                    281,
+                    790
+                  ]
+                ]
+              },
+              {
+                "text": "Electoraf Registration Officer, 207 - Bhosari",
+                "confidence": 0.9731224179267883,
+                "polygon": [
+                  [
+                    282,
+                    788
+                  ],
+                  [
+                    715,
+                    791
+                  ],
+                  [
+                    715,
+                    812
+                  ],
+                  [
+                    282,
+                    809
+                  ]
+                ]
+              },
+              {
+                "text": "ZSL6279350",
+                "confidence": 0.9999538660049438,
+                "polygon": [
+                  [
+                    76,
+                    831
+                  ],
+                  [
+                    206,
+                    833
+                  ],
+                  [
+                    206,
+                    857
+                  ],
+                  [
+                    76,
+                    855
+                  ]
+                ]
+              },
+              {
+                "text": "Downfoad Date: 18-04-2024",
+                "confidence": 0.9675413370132446,
+                "polygon": [
+                  [
+                    282,
+                    825
+                  ],
+                  [
+                    552,
+                    826
+                  ],
+                  [
+                    552,
+                    847
+                  ],
+                  [
+                    282,
+                    846
+                  ]
+                ]
+              },
+              {
+                "text": "G",
+                "confidence": 0.44494375586509705,
+                "polygon": [
+                  [
+                    25,
+                    899
+                  ],
+                  [
+                    59,
+                    899
+                  ],
+                  [
+                    59,
+                    930
+                  ],
+                  [
+                    25,
+                    930
+                  ]
+                ]
+              },
+              {
+                "text": "1950",
+                "confidence": 0.9999253749847412,
+                "polygon": [
+                  [
+                    57,
+                    904
+                  ],
+                  [
+                    100,
+                    904
+                  ],
+                  [
+                    100,
+                    927
+                  ],
+                  [
+                    57,
+                    927
+                  ]
+                ]
+              },
+              {
+                "text": "https://ceoelection.maharashtra.gov.in/ceo/",
+                "confidence": 0.988499641418457,
+                "polygon": [
+                  [
+                    246,
+                    908
+                  ],
+                  [
+                    534,
+                    912
+                  ],
+                  [
+                    534,
+                    932
+                  ],
+                  [
+                    246,
+                    928
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "glm": {
+          "source": {
+            "file": "output/glm/vote.json",
+            "saved_at_local": "2026-10-23T17:58:59"
+          },
+          "response": {
+            "engine": "glm",
+            "model": "glm-ocr:q8_0",
+            "image": "C:\\OCR-New\\vote.png",
+            "text": "भारत निर्वाहपूर्ण आयोग\nELECTION COMMISSION OF INDIA\nZSL6279350\nनाव: ममतादेवी अप्रवाल\nName: Mamatadevi Agarwal\nपत्रीव नाव: बल्लमहुमार अप्रवाल\nHusband's Name: Ballabhkumar Agarwal\nलिना / Gender: रत्य / Female\nजनतातीय / वय:\nDate of Birth / Age: 02-06-1970\ne-Electors Photo Identity Card - इ-मतदेवर फोटो अलक्षणपर\nपत्रा: एसआर.ने.230/1, विनायक सेजीडेवी, दियी रोड,\nथोसरी, थोसरी, हवेली, पुँप, महाराष्ट्र-411039\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY,DIGHI ROAD, BHOSARI,\nBHOSARI, HAVELI, PUNE, MAHARASHTRA-\n411039\nमतदेवर जोवदी अलक्षकरी, 207 - थोसरी\nElectoral Registration Officer, 207 - Bhosari\nDownload Date: 18-04-2024\nZSL6279350\n1950 https://ceoelection.maharashtra.gov.in/ceo/",
+            "original_size": [
+              768,
+              954
+            ],
+            "input_size": [
+              768,
+              954
+            ],
+            "truncated": false,
+            "usage": {
+              "prompt_tokens": 930,
+              "generated_tokens": 512,
+              "total_duration_ns": 40803594300
+            }
+          }
+        },
+        "tesseract": {
+          "source": {
+            "file": "output/comparison3/tesseract/vote.json",
+            "saved_at_local": "2026-10-26T10:38:30"
+          },
+          "response": {
+            "engine": "tesseract",
+            "image": "C:\\OCR-New\\vote.png",
+            "language": "eng",
+            "text": "sia Prasuper Sirah\n& ELECTION COMMISSION OF INDIA\nZSL6279350\n| Date of Birth / Age:\ne-Electors Photo Identity Card - $-4deR Sic} saa\n= Wal: Vasn.4.230/1, arses eehSe ee as,\nSa vite, sited, gach, qt, werre- 411039\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY, DIGHI ROAD,-BHOSARI,\n: ARI; HAVELI, PUNE, MAHARASHTRA-\nsiftenré, 207 - sient\nRegistration Officer, 207 - Bhosari\nDate: 18-04-2024\nropes :\nZSL6279350\nhttps://ceoelection.maharas! Al\n@ Mositecosiecion maheresira. gov\n|\n|",
+            "lines": [
+              {
+                "text": "sia Prasuper Sirah",
+                "confidence": 0.30666666666666664
+              },
+              {
+                "text": "& ELECTION COMMISSION OF INDIA",
+                "confidence": 0.8619999999999999
+              },
+              {
+                "text": "ZSL6279350",
+                "confidence": 0.86
+              },
+              {
+                "text": "| Date of Birth / Age:",
+                "confidence": 0.9283333333333333
+              },
+              {
+                "text": "e-Electors Photo Identity Card - $-4deR Sic} saa",
+                "confidence": 0.64375
+              },
+              {
+                "text": "= Wal: Vasn.4.230/1, arses eehSe ee as,",
+                "confidence": 0.3757142857142856
+              },
+              {
+                "text": "Sa vite, sited, gach, qt, werre- 411039",
+                "confidence": 0.4042857142857143
+              },
+              {
+                "text": "Address: SR.NO.230/1, VINAYAK",
+                "confidence": 0.9166666666666666
+              },
+              {
+                "text": "RESIDENCY, DIGHI ROAD,-BHOSARI,",
+                "confidence": 0.30333333333333334
+              },
+              {
+                "text": ": ARI; HAVELI, PUNE, MAHARASHTRA-",
+                "confidence": 0.8540000000000001
+              },
+              {
+                "text": "siftenré, 207 - sient",
+                "confidence": 0.5325
+              },
+              {
+                "text": "Registration Officer, 207 - Bhosari",
+                "confidence": 0.89
+              },
+              {
+                "text": "Date: 18-04-2024",
+                "confidence": 0.96
+              },
+              {
+                "text": "ropes :",
+                "confidence": 0.24
+              },
+              {
+                "text": "ZSL6279350",
+                "confidence": 0.63
+              },
+              {
+                "text": "https://ceoelection.maharas! Al",
+                "confidence": 0.42000000000000004
+              },
+              {
+                "text": "@ Mositecosiecion maheresira. gov",
+                "confidence": 0.1725
+              },
+              {
+                "text": "|",
+                "confidence": 0.96
+              },
+              {
+                "text": "|",
+                "confidence": 0.94
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

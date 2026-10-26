@@ -1,0 +1,60 @@
+{
+  "engine": "asternet",
+  "model": "asterxlabs/asternet-vietnamese-ocr",
+  "image": "C:\\OCR-New\\output\\asternet-smoke\\vietnamese_line.png",
+  "language": "vi",
+  "mode": "document",
+  "device": "cpu",
+  "decoder": "greedy_ctc",
+  "original_size": [
+    551,
+    56
+  ],
+  "text": "Cộng\ng hòa xã hội chủ nghĩa Việt Nam",
+  "lines": [
+    {
+      "text": "Cộng",
+      "confidence": 0.9998093694448471,
+      "polygon": [
+        [
+          12.0,
+          13.0
+        ],
+        [
+          95.0,
+          16.0
+        ],
+        [
+          94.0,
+          47.0
+        ],
+        [
+          11.0,
+          44.0
+        ]
+      ]
+    },
+    {
+      "text": "g hòa xã hội chủ nghĩa Việt Nam",
+      "confidence": 0.9885075419179855,
+      "polygon": [
+        [
+          75.0,
+          9.0
+        ],
+        [
+          542.0,
+          12.0
+        ],
+        [
+          542.0,
+          48.0
+        ],
+        [
+          75.0,
+          46.0
+        ]
+      ]
+    }
+  ]
+}

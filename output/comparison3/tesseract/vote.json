@@ -1,0 +1,84 @@
+{
+  "engine": "tesseract",
+  "image": "C:\\OCR-New\\vote.png",
+  "language": "eng",
+  "text": "sia Prasuper Sirah\n& ELECTION COMMISSION OF INDIA\nZSL6279350\n| Date of Birth / Age:\ne-Electors Photo Identity Card - $-4deR Sic} saa\n= Wal: Vasn.4.230/1, arses eehSe ee as,\nSa vite, sited, gach, qt, werre- 411039\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY, DIGHI ROAD,-BHOSARI,\n: ARI; HAVELI, PUNE, MAHARASHTRA-\nsiftenré, 207 - sient\nRegistration Officer, 207 - Bhosari\nDate: 18-04-2024\nropes :\nZSL6279350\nhttps://ceoelection.maharas! Al\n@ Mositecosiecion maheresira. gov\n|\n|",
+  "lines": [
+    {
+      "text": "sia Prasuper Sirah",
+      "confidence": 0.30666666666666664
+    },
+    {
+      "text": "& ELECTION COMMISSION OF INDIA",
+      "confidence": 0.8619999999999999
+    },
+    {
+      "text": "ZSL6279350",
+      "confidence": 0.86
+    },
+    {
+      "text": "| Date of Birth / Age:",
+      "confidence": 0.9283333333333333
+    },
+    {
+      "text": "e-Electors Photo Identity Card - $-4deR Sic} saa",
+      "confidence": 0.64375
+    },
+    {
+      "text": "= Wal: Vasn.4.230/1, arses eehSe ee as,",
+      "confidence": 0.3757142857142856
+    },
+    {
+      "text": "Sa vite, sited, gach, qt, werre- 411039",
+      "confidence": 0.4042857142857143
+    },
+    {
+      "text": "Address: SR.NO.230/1, VINAYAK",
+      "confidence": 0.9166666666666666
+    },
+    {
+      "text": "RESIDENCY, DIGHI ROAD,-BHOSARI,",
+      "confidence": 0.30333333333333334
+    },
+    {
+      "text": ": ARI; HAVELI, PUNE, MAHARASHTRA-",
+      "confidence": 0.8540000000000001
+    },
+    {
+      "text": "siftenré, 207 - sient",
+      "confidence": 0.5325
+    },
+    {
+      "text": "Registration Officer, 207 - Bhosari",
+      "confidence": 0.89
+    },
+    {
+      "text": "Date: 18-04-2024",
+      "confidence": 0.96
+    },
+    {
+      "text": "ropes :",
+      "confidence": 0.24
+    },
+    {
+      "text": "ZSL6279350",
+      "confidence": 0.63
+    },
+    {
+      "text": "https://ceoelection.maharas! Al",
+      "confidence": 0.42000000000000004
+    },
+    {
+      "text": "@ Mositecosiecion maheresira. gov",
+      "confidence": 0.1725
+    },
+    {
+      "text": "|",
+      "confidence": 0.96
+    },
+    {
+      "text": "|",
+      "confidence": 0.94
+    }
+  ]
+}

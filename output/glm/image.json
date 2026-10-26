@@ -1,0 +1,20 @@
+{
+  "engine": "glm",
+  "model": "glm-ocr:q8_0",
+  "image": "C:\\OCR-New\\image.png",
+  "text": "Sale\nभारत सरकार\nGovernment of India\nभारतीय विशिष्ट पहचान प्राधिकरण\nUnique Identification Authority of India\nनामांकन रक्षा/ Enrolment No.: 4049/30507/00690\nTo\nबसंत शास्त्र\nBasant Raj\nC/O: Aaadhar Card,\nVTC: Flat No 25\nPO: Grugram\nSub District: Grugram\nDistrict: Grugram\nState: New Delhi\nPIN Code: 110042,\nMobile: 9931971873\nआपका आधार क्रमाक्रम / Your Aadhaar No. :\n1234 5678 9101\nVID : 9110 0445 8669 0808\nमेरा आधार, मेरी पहचान\nभारत सरकार\nGovernment of India\nभारत\nAadhaar no. issued: 10/07/2025\nबसंत शास्त्र\nBasant Raj\nजन्म विशिष्ट/DOB:01/01/2000\nपुरुष/ MALE\n1234 5678 9101\nआपका पहचान का प्रमाण है, नामांकरी या जन्मविष्ट का नमी 1\nAadhaar is proof of identity, not of citizenship or date of birth.\n1234 5678 9101\nमेरा आधार, मेरी पहचान\nWWW.ETCPRINT.IN",
+  "original_size": [
+    2560,
+    2560
+  ],
+  "input_size": [
+    1600,
+    1600
+  ],
+  "truncated": false,
+  "usage": {
+    "prompt_tokens": 3261,
+    "generated_tokens": 533,
+    "total_duration_ns": 206843843200
+  }
+}

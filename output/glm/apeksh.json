@@ -1,0 +1,20 @@
+{
+  "engine": "glm",
+  "model": "glm-ocr:q8_0",
+  "image": "C:\\OCR-New\\apeksh.webp",
+  "text": "आयात\nभारतीय विश्वास पहचान प्राधिकरण\nUNIQUE IDENTIFICATION AUTHORITY OF INDIA\nपता:\nD/O: संजीव कमार मिश्रा, गौपालल गौपज / अपर बाजार,\nशाखी मठिर के पासस, अपर बाजार राखी, राखी जी.पी.आ\nराखी, दुरार्थड, 834001\nAddress:\nD/O: Sanjiv Kumar Mishra, gopal ganj / upper\nbazar, near shani mandir, upper bazar ranchi,\nRanchi G.P.O., Ranchi, Jharkhand, 834001\nDownload Date: 05/12/2019\n7458 6035 2502\nwww\nuidai.gov.in\nP.O. Box No.1947,\nBengaluru-560 001\nभारत सरकार\nGOVERNMENT OF INDIA\nअपेद्धा मिश्रा\nApeksha Mishra\nजन्म तिनिय / DOB: 23/07/2003\nमिश्रा / FEMALE\n7458 6035 2502\nमेरा आयात, मेरी पहचान",
+  "original_size": [
+    768,
+    865
+  ],
+  "input_size": [
+    768,
+    865
+  ],
+  "truncated": false,
+  "usage": {
+    "prompt_tokens": 849,
+    "generated_tokens": 445,
+    "total_duration_ns": 37862779000
+  }
+}

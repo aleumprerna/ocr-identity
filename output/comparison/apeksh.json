@@ -1,0 +1,23 @@
+{
+  "document_type": "Aadhaar",
+  "name": "Apeksha Mishra",
+  "name_hindi": "अपेक्षा मिश्रा",
+  "date_of_birth": "2003-07-23",
+  "gender": "Female",
+  "aadhaar_number": "745860352502",
+  "virtual_id": "",
+  "issue_date": "",
+  "download_date": "2019-12-05",
+  "address": {
+    "care_of": "Sanjiv Kumar Mishra",
+    "house_number": "",
+    "locality": "Gopal Ganj / Upper Bazar, Near Shani Mandir, Upper Bazar Ranchi",
+    "city": "Ranchi",
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "pin_code": "834001",
+    "country": "India"
+  },
+  "issuing_authority": "UIDAI",
+  "qr_code_present": true
+}

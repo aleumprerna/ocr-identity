@@ -1,0 +1,20 @@
+{
+  "engine": "glm",
+  "model": "glm-ocr:q8_0",
+  "image": "C:\\OCR-New\\vote.png",
+  "text": "भारत निर्वाहपूर्ण आयोग\nELECTION COMMISSION OF INDIA\nZSL6279350\nनाव: ममतादेवी अप्रवाल\nName: Mamatadevi Agarwal\nपत्रीव नाव: बल्लमहुमार अप्रवाल\nHusband's Name: Ballabhkumar Agarwal\nलिना / Gender: रत्य / Female\nजनतातीय / वय:\nDate of Birth / Age: 02-06-1970\ne-Electors Photo Identity Card - इ-मतदेवर फोटो अलक्षणपर\nपत्रा: एसआर.ने.230/1, विनायक सेजीडेवी, दियी रोड,\nथोसरी, थोसरी, हवेली, पुँप, महाराष्ट्र-411039\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY,DIGHI ROAD, BHOSARI,\nBHOSARI, HAVELI, PUNE, MAHARASHTRA-\n411039\nमतदेवर जोवदी अलक्षकरी, 207 - थोसरी\nElectoral Registration Officer, 207 - Bhosari\nDownload Date: 18-04-2024\nZSL6279350\n1950 https://ceoelection.maharashtra.gov.in/ceo/",
+  "original_size": [
+    768,
+    954
+  ],
+  "input_size": [
+    768,
+    954
+  ],
+  "truncated": false,
+  "usage": {
+    "prompt_tokens": 930,
+    "generated_tokens": 512,
+    "total_duration_ns": 40803594300
+  }
+}

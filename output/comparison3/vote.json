@@ -1,0 +1,580 @@
+{
+  "engine": "paddleocr",
+  "image": "C:\\OCR-New\\vote.png",
+  "language": "en",
+  "text": "HRG EasUC 3U\nELECTION COMMISSION OF INDIA\nZSL6279350\nU5t91\n:44G3\nName: Mamatadevi Agarwal\n4aF:44R3\nHusband's Name: Ballabhkumar:Agarwal\n/Gender/ Femäle\nGHGRRE/C4:\nDate of Birth / Age: 02-06-1970\ne-Electors Photo Identity Card - §-d 3\n4:53..230/1,-1423,23\nau,,5d, qu,46Rg-411039\nan\nAddress: SR.NO.230/1, VINAYAK\nRESIDENCY,DIGHI ROAD,BHOSARI,\nBHOSARI,HAVELI, PUNE,MAHARASHTRA-\n411039\n4SGTGU3CT, 207 -2R\nElectoraf Registration Officer, 207 - Bhosari\nZSL6279350\nDownfoad Date: 18-04-2024\nG\n1950\nhttps://ceoelection.maharashtra.gov.in/ceo/",
+  "lines": [
+    {
+      "text": "HRG EasUC 3U",
+      "confidence": 0.4441247880458832,
+      "polygon": [
+        [
+          243,
+          27
+        ],
+        [
+          499,
+          27
+        ],
+        [
+          499,
+          61
+        ],
+        [
+          243,
+          61
+        ]
+      ]
+    },
+    {
+      "text": "ELECTION COMMISSION OF INDIA",
+      "confidence": 0.9975739121437073,
+      "polygon": [
+        [
+          142,
+          68
+        ],
+        [
+          600,
+          67
+        ],
+        [
+          600,
+          96
+        ],
+        [
+          142,
+          97
+        ]
+      ]
+    },
+    {
+      "text": "ZSL6279350",
+      "confidence": 0.9999135732650757,
+      "polygon": [
+        [
+          46,
+          129
+        ],
+        [
+          196,
+          129
+        ],
+        [
+          196,
+          153
+        ],
+        [
+          46,
+          153
+        ]
+      ]
+    },
+    {
+      "text": "U5t91",
+      "confidence": 0.44962936639785767,
+      "polygon": [
+        [
+          718,
+          126
+        ],
+        [
+          739,
+          127
+        ],
+        [
+          733,
+          192
+        ],
+        [
+          712,
+          191
+        ]
+      ]
+    },
+    {
+      "text": ":44G3",
+      "confidence": 0.43808943033218384,
+      "polygon": [
+        [
+          241,
+          175
+        ],
+        [
+          422,
+          173
+        ],
+        [
+          422,
+          197
+        ],
+        [
+          241,
+          199
+        ]
+      ]
+    },
+    {
+      "text": "Name: Mamatadevi Agarwal",
+      "confidence": 0.9679329991340637,
+      "polygon": [
+        [
+          242,
+          205
+        ],
+        [
+          501,
+          206
+        ],
+        [
+          501,
+          227
+        ],
+        [
+          242,
+          226
+        ]
+      ]
+    },
+    {
+      "text": "4aF:44R3",
+      "confidence": 0.34768354892730713,
+      "polygon": [
+        [
+          242,
+          239
+        ],
+        [
+          491,
+          239
+        ],
+        [
+          491,
+          263
+        ],
+        [
+          242,
+          263
+        ]
+      ]
+    },
+    {
+      "text": "Husband's Name: Ballabhkumar:Agarwal",
+      "confidence": 0.9764225482940674,
+      "polygon": [
+        [
+          242,
+          271
+        ],
+        [
+          619,
+          271
+        ],
+        [
+          619,
+          294
+        ],
+        [
+          242,
+          294
+        ]
+      ]
+    },
+    {
+      "text": "/Gender/ Femäle",
+      "confidence": 0.8512437343597412,
+      "polygon": [
+        [
+          245,
+          303
+        ],
+        [
+          476,
+          303
+        ],
+        [
+          476,
+          324
+        ],
+        [
+          245,
+          324
+        ]
+      ]
+    },
+    {
+      "text": "GHGRRE/C4:",
+      "confidence": 0.49106210470199585,
+      "polygon": [
+        [
+          244,
+          334
+        ],
+        [
+          374,
+          334
+        ],
+        [
+          374,
+          358
+        ],
+        [
+          244,
+          358
+        ]
+      ]
+    },
+    {
+      "text": "Date of Birth / Age: 02-06-1970",
+      "confidence": 0.9517503976821899,
+      "polygon": [
+        [
+          244,
+          366
+        ],
+        [
+          513,
+          366
+        ],
+        [
+          513,
+          389
+        ],
+        [
+          244,
+          389
+        ]
+      ]
+    },
+    {
+      "text": "e-Electors Photo Identity Card - §-d 3",
+      "confidence": 0.8909819722175598,
+      "polygon": [
+        [
+          107,
+          428
+        ],
+        [
+          654,
+          424
+        ],
+        [
+          654,
+          451
+        ],
+        [
+          107,
+          455
+        ]
+      ]
+    },
+    {
+      "text": "4:53..230/1,-1423,23",
+      "confidence": 0.7067856192588806,
+      "polygon": [
+        [
+          280,
+          522
+        ],
+        [
+          704,
+          522
+        ],
+        [
+          704,
+          545
+        ],
+        [
+          280,
+          545
+        ]
+      ]
+    },
+    {
+      "text": "au,,5d, qu,46Rg-411039",
+      "confidence": 0.6485927104949951,
+      "polygon": [
+        [
+          281,
+          549
+        ],
+        [
+          653,
+          551
+        ],
+        [
+          653,
+          574
+        ],
+        [
+          281,
+          572
+        ]
+      ]
+    },
+    {
+      "text": "an",
+      "confidence": 0.363869309425354,
+      "polygon": [
+        [
+          59,
+          561
+        ],
+        [
+          143,
+          531
+        ],
+        [
+          150,
+          551
+        ],
+        [
+          66,
+          581
+        ]
+      ]
+    },
+    {
+      "text": "Address: SR.NO.230/1, VINAYAK",
+      "confidence": 0.9652971029281616,
+      "polygon": [
+        [
+          280,
+          580
+        ],
+        [
+          610,
+          580
+        ],
+        [
+          610,
+          603
+        ],
+        [
+          280,
+          603
+        ]
+      ]
+    },
+    {
+      "text": "RESIDENCY,DIGHI ROAD,BHOSARI,",
+      "confidence": 0.9770628809928894,
+      "polygon": [
+        [
+          280,
+          609
+        ],
+        [
+          649,
+          610
+        ],
+        [
+          649,
+          631
+        ],
+        [
+          280,
+          630
+        ]
+      ]
+    },
+    {
+      "text": "BHOSARI,HAVELI, PUNE,MAHARASHTRA-",
+      "confidence": 0.963442325592041,
+      "polygon": [
+        [
+          278,
+          637
+        ],
+        [
+          723,
+          638
+        ],
+        [
+          723,
+          661
+        ],
+        [
+          278,
+          660
+        ]
+      ]
+    },
+    {
+      "text": "411039",
+      "confidence": 0.9980082511901855,
+      "polygon": [
+        [
+          280,
+          665
+        ],
+        [
+          357,
+          665
+        ],
+        [
+          357,
+          690
+        ],
+        [
+          280,
+          690
+        ]
+      ]
+    },
+    {
+      "text": "4SGTGU3CT, 207 -2R",
+      "confidence": 0.5336053371429443,
+      "polygon": [
+        [
+          281,
+          767
+        ],
+        [
+          595,
+          767
+        ],
+        [
+          595,
+          790
+        ],
+        [
+          281,
+          790
+        ]
+      ]
+    },
+    {
+      "text": "Electoraf Registration Officer, 207 - Bhosari",
+      "confidence": 0.9731224179267883,
+      "polygon": [
+        [
+          282,
+          788
+        ],
+        [
+          715,
+          791
+        ],
+        [
+          715,
+          812
+        ],
+        [
+          282,
+          809
+        ]
+      ]
+    },
+    {
+      "text": "ZSL6279350",
+      "confidence": 0.9999538660049438,
+      "polygon": [
+        [
+          76,
+          831
+        ],
+        [
+          206,
+          833
+        ],
+        [
+          206,
+          857
+        ],
+        [
+          76,
+          855
+        ]
+      ]
+    },
+    {
+      "text": "Downfoad Date: 18-04-2024",
+      "confidence": 0.9675413370132446,
+      "polygon": [
+        [
+          282,
+          825
+        ],
+        [
+          552,
+          826
+        ],
+        [
+          552,
+          847
+        ],
+        [
+          282,
+          846
+        ]
+      ]
+    },
+    {
+      "text": "G",
+      "confidence": 0.44494375586509705,
+      "polygon": [
+        [
+          25,
+          899
+        ],
+        [
+          59,
+          899
+        ],
+        [
+          59,
+          930
+        ],
+        [
+          25,
+          930
+        ]
+      ]
+    },
+    {
+      "text": "1950",
+      "confidence": 0.9999253749847412,
+      "polygon": [
+        [
+          57,
+          904
+        ],
+        [
+          100,
+          904
+        ],
+        [
+          100,
+          927
+        ],
+        [
+          57,
+          927
+        ]
+      ]
+    },
+    {
+      "text": "https://ceoelection.maharashtra.gov.in/ceo/",
+      "confidence": 0.988499641418457,
+      "polygon": [
+        [
+          246,
+          908
+        ],
+        [
+          534,
+          912
+        ],
+        [
+          534,
+          932
+        ],
+        [
+          246,
+          928
+        ]
+      ]
+    }
+  ]
+}

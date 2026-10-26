@@ -1,0 +1,20 @@
+{
+  "engine": "asternet",
+  "model": "asterxlabs/asternet-vietnamese-ocr",
+  "image": "C:\\OCR-New\\output\\asternet-smoke\\vietnamese_line.png",
+  "language": "vi",
+  "mode": "line",
+  "device": "cpu",
+  "decoder": "greedy_ctc",
+  "original_size": [
+    551,
+    56
+  ],
+  "text": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+  "lines": [
+    {
+      "text": "Cộng hòa xã hội chủ nghĩa Việt Nam",
+      "confidence": 0.9916852063992444
+    }
+  ]
+}

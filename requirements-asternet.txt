@@ -1,0 +1,6 @@
+# CPU inference; no PyTorch, Transformers, API key, or Ollama required.
+onnxruntime>=1.17,<2
+numpy>=1.24,<3
+Pillow>=10,<13
+huggingface-hub>=0.26,<2
+rapidocr-onnxruntime==1.4.4
